@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Professor Greg Anderson Fan Site</title>
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <p>This worked</p>
+
+    <h1>Anderson's fan club</h1>
+    <h3>The one, the only, Mr. Greg Anderson!</h3>
+
+    <img src="Ganderson.jpeg" height="400" id="imgGanderson" />
+
+    <p>Professor Anderson (a.k.a. "Prof Ganderson") is a professor in the Information Systems Department.</p>
+    <p>Pop Quiz: Why do we love him?</p>
+    <ul>
+        <li>A: The flowing locks he had growing up</li>
+        <li>B: He can pound a pound of bacon</li>
+        <li>C: His exams are so easy!</li>
+        <li>D: He is just an awesome person who cares about everyone around him</li>
+        <li>E: All of the above</li>
+    </ul>
+
+    <h2>Send Fan Mail Here</h2>
+    <form>
+        <label>From:</label>
+        <input id="textFrom" />
+        <br />
+        <label>Subject:</label>
+        <input id="textSubject" />
+        <br />
+        <label>Message:</label>
+        <br />
+        <textarea rows="4" id="textMessage"></textarea>
+        <br />
+        <input type="button" value="Send Message" id="submitButton" />
+    </form>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/site.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
